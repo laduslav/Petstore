@@ -1,0 +1,522 @@
+body{
+    font-family: 'Tillana', cursive;
+font-family: 'Trykker', serif;
+color: black;
+font-size: 14px;
+
+}
+body{
+    background: #ffcd16;
+    width: 1499px;
+    height:3021px ;
+}
+.container{
+    position: relative;
+    max-width: 3610px;
+    width: 100%;
+    padding: 0 15px;
+  margin: 0 auto;
+  margin-left: 13%;
+}
+.logo{
+    position: absolute;
+    top: 0.9%;
+    margin-left: 32%;
+}
+.h2{
+    position: absolute;
+    top: 0%;
+    font-size: 72px;
+    margin-left: 39%;
+}
+.dws{
+    margin-left: 4%;
+    top: 2.2%;
+    position: absolute;
+
+}
+.butt {
+    margin-right: 57%;    
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  .butt:hover {
+    background: #F070A1;
+    box-shadow: 0 15px 20px rgba(46,229,157,.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+  .dws2{
+    margin-left: 18%;
+    top: 2%;
+    position: absolute;
+   }
+   .otz {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255,255,255,.4);
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .otz:before,
+  .otz:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .otz:before {
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+  }
+  .otz:after {
+    top: 0;
+    right: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+  }
+  .otz:hover:before,
+  .otz:hover:after{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .otz:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+  .otz:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+  .otz:hover {background: rgba(0, 0, 0, 0.2);}
+  .dws3{
+    margin-left: 65%;
+    top: 2.2%;
+    position: absolute;
+   }
+   .osr {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255,255,255,.4);
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .osr:before,
+  .osr:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .osr:before {
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+  }
+  .osr:after {
+    top: 0;
+    right: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+  }
+  .osr:hover:before,
+  .osr:hover:after{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .osr:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+  .osr:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+  .osr:hover {background: rgba(0, 0, 0, 0.2);}
+  .dws4{
+    margin-left: 83%;
+    top: 2.2%;
+    position: absolute;
+  }
+    .kon {
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        padding: 20px 30px;
+        margin: 10px 20px;
+        position: relative;
+        color: rgb(0, 0, 0);
+        border: 1px solid rgba(255,255,255,.4);
+        background: none;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .kon:before,
+      .kon:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        box-sizing: border-box;
+      }
+      .kon:before {
+        bottom: 0;
+        left: 0;
+        border-left: 1px solid rgb(0, 0, 0);
+        border-top: 1px solid rgb(0, 0, 0);
+        transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+      }
+      .kon:after {
+        top: 0;
+        right: 0;
+        border-right: 1px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+      }
+      .kon:hover:before,
+      .kon:hover:after{
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+      }
+      .kon:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+      .kon:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+      .kon:hover {background: rgba(0, 0, 0, 0.2);}
+      .mao{
+          position: absolute;
+          top: 8.5%;
+          font-size: 60px;
+          font-family: monospace;
+          margin-left: 85%;
+      }
+      .dom{
+        position: absolute;
+        top: 9%;
+        font-size: 60px;
+        font-family: cursive;
+        margin-left: 5%;
+      }
+   .tel{
+       position: absolute;
+       top: 18%;
+       margin-left: 4%;
+   }
+   .lapa{
+       position: absolute;
+       top: 9.6%;
+       margin-left: 31%;
+   }
+   .pop{
+       position: absolute;
+       top: 24.6%;
+       margin-left: 11.1%;
+   }
+   .opis{
+    position: absolute;
+    top: 23%;
+    margin-left: 50%;
+    font-size: 27px;
+   }
+   .kotm{
+    position: absolute;
+    top: 39%;
+    margin-left: 10%;
+   }
+   .rekl{
+    position: absolute;
+    top: 39%;
+    margin-left: 50%;
+    font-size: 45px;
+    font-style: initial;
+   }
+   .dws5{
+    margin-left: 61%;
+    top: 43.5%;
+    position: absolute;
+  }
+  .buy {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 15px 30px;
+    overflow: hidden;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(30,255,188,1);
+    background: rgba(255,255,255,1);
+    transition: color .3s, background .5s;
+  }
+  .buy:hover {
+    animation: stripes .75s infinite linear;
+    background: linear-gradient(45deg, rgba(30,255,188,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(30,255,188,1) 50%,      rgba(30,255,188,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1));
+    background-size: 10px 10px;
+    color: #FF50E5;
+  }
+  @keyframes stripes {
+    0% {background-position: 0 0;}
+    100% {background-position: 50px 0;}
+  }
+  .dws6{
+      position: absolute;
+      top: 52.8%;
+      margin-left: 30%;
+  }
+  .vnim{
+      position: absolute;
+      top: 55%;
+      margin-left: 7%;
+      font-size: 43px;
+  }
+  .rib{
+    position: absolute;
+    top: 59%;
+    margin-left: 12%;
+    font-size: 43px;
+}
+.pravo{
+    position: absolute;
+    top: 58%;
+    margin-left: 10%;
+}
+.levo{
+    position: absolute;
+    top: 50%;
+    margin-left: 60%;
+}
+.dws7{
+    margin-left: 61%;
+    top: 57%;
+    position: absolute;
+  }
+  .buy2 {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 15px 30px;
+    overflow: hidden;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:#FF50E5;
+    background: rgba(255,255,255,1);
+    transition: color .3s, background .5s;
+  }
+  .buy2:hover {
+    animation: stripes .75s infinite linear;
+    background: linear-gradient(45deg, rgba(30,255,188,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(30,255,188,1) 50%,      rgba(30,255,188,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1));
+    background-size: 10px 10px;
+    color: #FF50E5;
+  }
+  @keyframes stripes {
+    0% {background-position: 0 0;}
+    100% {background-position: 50px 0;}
+  }
+  .dws6{
+      position: absolute;
+      top: 52.8%;
+      margin-left: 30%;
+  }
+  .slon{
+    position: absolute;
+    top: 58.8%;
+    margin-left: 49.6%;
+}
+.tel2{
+    position: absolute;
+    top: 61.8%;
+    margin-left: 41.6%;
+}
+.pes{
+    position: absolute;
+    top: 68%;
+    margin-left: 45.3%;
+}
+.pomer{
+    position: absolute;
+    top: 68%;
+    margin-left: 7.3%;
+    font-size: 40px;
+}
+.dws8{
+    margin-left: 6%;
+    top: 77%;
+    position: absolute;
+  }
+  .buy3 {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 15px 30px;
+    overflow: hidden;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(30,255,188,1);
+    background: rgba(255,255,255,1);
+    transition: color .3s, background .5s;
+  }
+  .buy3:hover {
+    animation: stripes .75s infinite linear;
+    background: linear-gradient(45deg, rgba(30,255,188,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(30,255,188,1) 50%,      rgba(30,255,188,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1));
+    background-size: 10px 10px;
+    color: #FF50E5;
+  }
+  @keyframes stripes {
+    0% {background-position: 0 0;}
+    100% {background-position: 50px 0;}
+  }
+  .den{
+      position: absolute;
+      top: 70%;
+      margin-left: 30%;
+  }
+  .line{
+    position: absolute;
+    top: 70%;
+    margin-left: 27%;
+}
+.skid{
+    position: absolute;
+    top: 67%;
+    margin-left: 28%;
+}
+.kot{
+    position: absolute;
+    top: 84.9%;
+    margin-left: 38%;
+}
+.makaka{
+    position: absolute;
+    top: 73.8%;
+    margin-left: 48%;
+}
+.ob{
+    position: absolute;
+    top: 80.3%;
+    margin-left: 54.2%;
+}
+.den2{
+    position: absolute;
+    top: 85.3%;
+    margin-left: 14.2%;
+}
+.lon{
+    position: absolute;
+    top: 85.3%;
+    margin-left: 11%;
+}
+.sk{
+    position: absolute;
+    top: 83.3%;
+    margin-left: 11%;
+}
+.mak{
+    position: absolute;
+    top: 88.3%;
+    margin-left: 11%;
+    font-size: 40px;
+}
+.dws9{
+    margin-left: 6%;
+    top: 93%;
+    position: absolute;
+  }
+  .buy4 {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 15px 30px;
+    overflow: hidden;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:#FF50E5;
+    background: rgba(255,255,255,1);
+    transition: color .3s, background .5s;
+  }
+  .buy4:hover {
+    animation: stripes .75s infinite linear;
+    background: linear-gradient(45deg, rgba(30,255,188,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(30,255,188,1) 50%,      rgba(30,255,188,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1));
+    background-size: 10px 10px;
+    color: #FF50E5;
+  }
+  @keyframes stripes {
+    0% {background-position: 0 0;}
+    100% {background-position: 50px 0;}
+  }
+  .svaz{
+    margin-left: 68%;
+    top: 95%;
+    position: absolute;
+  }
+  .vk{
+    margin-left: 84%;
+    top: 97%;
+    position: absolute;
+  }
+  .gram{
+    margin-left: 89%;
+    top: 95%;
+    position: absolute;
+  }
+  .vk2{
+    margin-left: 89.1%;
+    top: 96.8%;
+    position: absolute;
+  }
+  
+
+
